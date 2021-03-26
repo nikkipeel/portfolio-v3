@@ -55,18 +55,6 @@ a:hover, a:focus, button:hover, button:focus, svg:hover, svg:focus {
   outline: 0px transparent;
 }
 
-
-
-#services {
-  background: var(--light-green);
-}
-
-
-#skills {
-  background: var(--indigo);
-  margin-top: -20%;
-}
-
 footer {
   background: var(--pink);
   color: var(--white);
@@ -85,4 +73,13 @@ footer small a {
   .bm-burger-button {
     display: none;
   }
+}
+
+#services, #certs, #works, #contact {
+  padding-top: 5rem;
+  padding-bottom:15rem;
+}
+
+.pointer-events-none {
+  margin-top: -15rem;
 }

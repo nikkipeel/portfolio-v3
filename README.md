@@ -1,4 +1,4 @@
-### **Portfolio Redesign with Gatbsby and Tailwind**
+### **Portfolio Redesign with Gatsby and Tailwind**
 
 [Current portfolio (Bootstrap v4)](https://nikkipeel.com)
 
@@ -9,5 +9,5 @@
 - Create json file with project data
 - Add transition animations
 
-[!homepage](images/homepage.png)
+[!homepage](src/images/homepage.png)
 [!mobile menu](images/burger-menu.png)

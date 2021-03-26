@@ -2,7 +2,7 @@ import React from 'react';
 
 function Services() {
   return (
-    <div className="bg-lightGreen w-full h-full">
+    <div id="services" className="bg-lightGreen w-full h-full">
         <div className="flex flex-col justify-center items-center w-full lg:w-50 py-20">
         <h1 className="w-32 text-3xl tracking-wide font-bold text-white" style={{borderBottom: '14px solid #D62B83', lineHeight: '.25', textShadow: '0px 0px 4px rgba(0,0,0,0.6'}}>Services</h1>
         
