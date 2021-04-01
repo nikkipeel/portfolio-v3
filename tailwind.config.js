@@ -5,6 +5,7 @@ module.exports = {
     extend: {},
     colors: {
       white: 'var(--white)',
+      white85: 'var(--white-85)',
       indigo: 'var(--indigo)',
       lightGreen: 'var(--light-green)',
       darkGreen: 'var(--dark-green)',

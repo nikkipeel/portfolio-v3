@@ -8,7 +8,7 @@ function Footer() {
   return (
         <div className="bg-pink flex justify-between w-full h-full p-8">
             <p className="text-white text-lg font-semibold tracking-wide">Nikki Peel</p>
-            <div class="flex">
+            <div className="flex">
                 <a aria-label="linked in" href="https://www.linkedin.com/in/nikkipeel" className="text-white text-xl pr-4"><FontAwesomeIcon icon={faLinkedin} /></a>
                 <a aria-label="github"  href="https://www.github.com/nikkipeel" className="text-white text-xl pr-4"><FontAwesomeIcon icon={faGithub} /></a>
                 <a aria-label="codepen" href="https://www.codepen.io/nikki-peel" className="text-white text-xl pr-4"><FontAwesomeIcon icon={faCodepen} /></a>

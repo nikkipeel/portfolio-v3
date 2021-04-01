@@ -66,7 +66,7 @@ function NavMenu() {
 
   
   <div className="text-white hidden md:flex md:justify-end pt-4 mr-64">
-        <Link to="/" exact activeClassName="underline" className="underline-offset text-white text-base pr-12 transition duration-500 focus:text-white focus:outline-none focus:underline hover:text-white hover:underline">
+        <Link to="/"  activeClassName="underline" className="underline-offset text-white text-base pr-12 transition duration-500 focus:text-white focus:outline-none focus:underline hover:text-white hover:underline">
             home
         </Link>
         <Link to="/about" activeClassName="underline" className="underline-offset text-white text-base pr-12 transition duration-500 focus:text-white focus:outline-none focus:underline hover:text-white hover:underline" >
