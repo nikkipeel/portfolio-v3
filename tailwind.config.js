@@ -12,9 +12,9 @@ module.exports = {
       pink: 'var(--pink)',
     },
     fontFamily: {
-      'sans': ['Source Sans Pro', 'Verdana', 'ui-sans-serif', 'system-ui'],
-      'serif': ['Source Serif Pro', 'ui-serif', 'Georgia'],
-      'mono': ['Source Code Pro', 'ui-monospace', 'SFMono-Regular'],
+      'sans': ['Source Sans Pro', 'Verdana', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+      'serif': ['Source Serif Pro', 'ui-serif', 'Georgia', 'serif'],
+      'mono': ['Source Code Pro', 'ui-monospace', 'SFMono-Regular', 'monospace'],
   },
 },
   variants: {

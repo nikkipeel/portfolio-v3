@@ -30,14 +30,14 @@ const WorksPage = () => (
         <h1 className="w-60 text-3xl tracking-wide font-bold text-white" style={{borderBottom: '14px solid #D62B83', lineHeight: '.25', textShadow: '0px 0px 4px rgba(0,0,0,0.6'}}>Recent Projects</h1>
 
         <div className="grid grid-cols md:grid-cols-2 lg:grid-cols-3 xl:w-3/4 items-center gap-4 mt-12 mx-auto p-4" style={{marginBottom: '-4rem'}}>
-            <div className="col h-64 rounded-sm bg-white text-indigo">
+            <div className="col h-100 rounded-sm bg-white text-indigo pb-4">
             <StaticImage className="object-contain shadow-inner" src="../images/blog.png" alt="Technical Blog"  placeholder="blurred" loading="eager" />
               <h3 className="pt-2 px-4 text-xl font-semibold font-mono tracking-tight" style={{textShadow: '-1.5px 1.5px 0px #40C69F'}}>Technical Blog</h3>
               <p className="italic px-4">Gatsby, Markdown, Tailwind</p>
               <a className="pb-4 px-4 font-bold hover:underline" style={{textUnderlineOffset: '2px'}} href="#">View Site</a>
             </div>
 
-            <div className="col h-64 rounded-sm bg-white text-indigo">
+            <div className="col h-100 rounded-sm bg-white text-indigo pb-4">
             <StaticImage className="object-contain shadow-inner" src="../images/photoportfolio.png" alt="Photography Portfolio"  placeholder="blurred" loading="eager" />
               <h3 className="pt-2 px-4 text-xl font-semibold font-mono tracking-tight" style={{textShadow: '-1.5px 1.5px 0px #40C69F'}}>Photography Portfolio</h3>
               <p className="italic px-4">HTML, Tailwind, Javascript</p>
@@ -45,7 +45,7 @@ const WorksPage = () => (
        
             </div>
 
-            <div className="col h-64 rounded-sm bg-white text-indigo">
+            <div className="col h-100 rounded-sm bg-white text-indigo pb-4">
             <StaticImage className=" object-contain shadow-inner" src="../images/nnblog1.png" alt="Nomadic Nobodies Blog"  placeholder="blurred" loading="eager" /> 
               <h3 className="pt-2 px-4 text-xl font-semibold font-mono tracking-tight" style={{textShadow: '-1.5px 1.5px 0px #40C69F'}}>Nomadic Nobodies Blog</h3>
               <p className="italic px-4">Wordpress, Elementor, CSS Grid</p>
@@ -53,7 +53,7 @@ const WorksPage = () => (
        
             </div>
 
-            <div className="col h-64 rounded-sm bg-white text-indigo">
+            <div className="col h-100 rounded-sm bg-white text-indigo pb-4">
             <StaticImage className=" object-contain shadow-inner" src="../images/lyricsSearch.png" alt="Lyrics Search"  placeholder="blurred" loading="eager" />           
               <h3 className="pt-2 px-4 text-xl font-semibold font-mono tracking-tight" style={{textShadow: '-1.5px 1.5px 0px #40C69F'}}>Lyrics Search</h3>
               <p className="italic px-4">HTML, Bootstrap, Javascript</p>
@@ -61,7 +61,7 @@ const WorksPage = () => (
        
             </div>
 
-            <div className="col h-64 rounded-sm bg-white text-indigo">
+            <div className="col h-100 rounded-sm bg-white text-indigo pb-4">
             <StaticImage className=" object-contain shadow-inner" src="../images/flashcards.png" alt="Flash Cards"  placeholder="blurred" loading="eager" />  
               <h3 className="pt-2 px-4 text-xl font-semibold font-mono tracking-tight" style={{textShadow: '-1.5px 1.5px 0px #40C69F'}}>Flash Cards</h3>
               <p className="italic px-4">HTML, CSS, Javascript</p>
@@ -69,15 +69,15 @@ const WorksPage = () => (
        
             </div>
 
-            <div className="col h-64 rounded-sm bg-white text-indigo">
-            <StaticImage className=" object-contain shadow-inner" src="../images/about.png" alt="Cannabiz"  placeholder="blurred" loading="eager" />   
+            <div className="col h-100 rounded-sm bg-white text-indigo pb-4">
+            <StaticImage className="object-contain shadow-inner" src="../images/about.png" alt="Cannabiz"  placeholder="blurred" loading="eager" />   
             <h3 className="pt-2 px-4 text-xl font-semibold font-mono tracking-tight" style={{textShadow: '-1.5px 1.5px 0px #40C69F'}}>Cannabiz</h3>
               <p className="italic px-4">HTML, Tailwind, Javascript</p>
               <a className="pb-4 px-4 font-bold hover:underline" style={{textUnderlineOffset: '2px'}} href="#">View Site</a>
        
             </div>
 
-            <div className="col h-64 rounded-sm bg-white text-indigo">
+            <div className="col h-100 rounded-sm bg-white text-indigo pb-4">
             <StaticImage className=" object-contain shadow-inner" src="../images/hero.png" alt="React Pizza"  placeholder="blurred" loading="eager" />   
               <h3 className="pt-2 px-4 text-xl font-semibold font-mono tracking-tight" style={{textShadow: '-1.5px 1.5px 0px #40C69F'}}>React Pizza</h3>
               <p className="italic px-4">React, styled-components</p>
@@ -85,7 +85,7 @@ const WorksPage = () => (
        
             </div>
 
-            <div className="col h-64 rounded-sm bg-white text-indigo">
+            <div className="col h-100 rounded-sm bg-white text-indigo pb-4">
             <StaticImage className=" object-contain shadow-inner" src="../images/yelpcamp.png" alt="Landing Page"  placeholder="blurred" loading="eager" />   
             <h3 className="pt-2 px-4 text-xl font-semibold font-mono tracking-tight" style={{textShadow: '-1.5px 1.5px 0px #40C69F'}}>YelpCamp</h3>
               <p className="italic px-4">Bootstrap, Express, NodeJS</p>
