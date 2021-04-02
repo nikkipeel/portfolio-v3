@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;0,900;1,700&family=Source+Code+Pro:wght@600;700&family=Source+Sans+Pro:ital,wght@0,400;0,600;0,900;1,700&family=Source+Serif+Pro:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;0,900;1,700&family=Source+Code+Pro:wght@400;600;700&family=Source+Serif+Pro:wght@600&display=swap');
 
 :root {
   --indigo: #05234C;
@@ -17,11 +17,6 @@
 body {
   font-family: 'Source Sans Pro', helvetica, sans-serif;
 }
-
-nav {
-  font-family: 'Source Code Pro', monospace;
-}
-
 
 strong {
   text-shadow: 3px 3px 0px var(--light-green);
@@ -45,11 +40,6 @@ strong {
 .fa-times, .fa-bars {
   color: var(--white) !important;
 }
-
-#mobileMenu {
-  font-family: 'Source Code Pro', monospace;
-}
-
 
 a:hover, a:focus, button:hover, button:focus, svg:hover, svg:focus {
   filter: brightness(115%);
@@ -101,4 +91,13 @@ footer small a {
   var(--indigo) 8px,
   var(--pink) 8px,
   var(--pink) 16px);
+}
+
+input {
+  width: 250px;
+  height: 32px;
+}
+textarea {
+  height: 150px;
+  width: 300px;
 }

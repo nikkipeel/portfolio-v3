@@ -10,8 +10,13 @@ module.exports = {
       lightGreen: 'var(--light-green)',
       darkGreen: 'var(--dark-green)',
       pink: 'var(--pink)',
-    }
+    },
+    fontFamily: {
+      'sans': ['Source Sans Pro', 'Verdana', 'ui-sans-serif', 'system-ui'],
+      'serif': ['Source Serif Pro', 'ui-serif', 'Georgia'],
+      'mono': ['Source Code Pro', 'ui-monospace', 'SFMono-Regular'],
   },
+},
   variants: {
     extend: {},
   },

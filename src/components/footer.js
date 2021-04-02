@@ -6,7 +6,7 @@ import { faCodepen, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-ic
 
 function Footer() {
   return (
-        <div className="bg-pink flex justify-between w-full h-full p-8">
+        <footer className="bg-pink flex justify-between w-full h-full p-8">
             <p className="text-white text-lg font-semibold tracking-wide">Nikki Peel</p>
             <div className="flex">
                 <a aria-label="linked in" href="https://www.linkedin.com/in/nikkipeel" className="text-white text-xl pr-4"><FontAwesomeIcon icon={faLinkedin} /></a>
@@ -14,7 +14,7 @@ function Footer() {
                 <a aria-label="codepen" href="https://www.codepen.io/nikki-peel" className="text-white text-xl pr-4"><FontAwesomeIcon icon={faCodepen} /></a>
                 <a aria-label="blog" href="https://nikkipeel.netlify.app" className="text-white text-xl  pr-4"><FontAwesomeIcon icon={faExternalLinkAlt} /></a>
             </div>
-        </div>
+        </footer>
   )
   }
 

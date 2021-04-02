@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "Portfolio",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Personal website for Nikki Peel includes recent projects, certifications, link to download resume, and contact form",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Nikki Peel <nikkipeel.dev@gmail.com>",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.34",
     "@fortawesome/free-brands-svg-icons": "^5.15.2",
