@@ -30,7 +30,7 @@ export default function Form() {
   }
 
   return (
-      <div className="bg-darkGreen w-3/4 lg:w-2/3 xl:w-1/2 rounded-sm mt-12 p-8 lg:p-12">
+      <div className="bg-darkGreen w-100 md:w-3/4 lg:w-2/3 xl:w-1/2 rounded-sm mx-4 md:mx-auto mt-12 p-8 lg:p-12">
       <form
         name="contact"
         method="post"
