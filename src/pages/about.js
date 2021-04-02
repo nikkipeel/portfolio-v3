@@ -33,7 +33,7 @@ const AboutPage = () => (
             </div>
 
             <div className="col rounded-sm">
-            <StaticImage className=" object-contain shadow-inner" src="../images/react-udemy.jpg" alt="Modern React Bootcamp - Udemy"  placeholder="blurred" loading="eager" />
+            <StaticImage className="object-contain shadow-inner" src="../images/react-udemy.jpg" alt="Modern React Bootcamp - Udemy"  placeholder="blurred" loading="eager" />
             </div>
 
             <div className="col rounded-sm">
