@@ -63,7 +63,7 @@ const WorksPage = () => (
             </div>
 
             <div className="col h-100 rounded-sm bg-white text-indigo pb-4">
-            <StaticImage className=" object-contain shadow-inner" src="../images/lyricsSearch.png" alt="Lyrics Search"  placeholder="blurred" loading="eager" />           
+            <StaticImage className=" object-contain shadow-inner" src="../images/lyricssearch.png" alt="Lyrics Search"  placeholder="blurred" loading="eager" />           
               <h3 className="pt-2 px-4 text-xl font-semibold font-mono tracking-tight" style={{textShadow: '-1.5px 1.5px 0px #40C69F'}}>Lyrics Search</h3>
               <p className="italic px-4">HTML, Bootstrap, Javascript</p>
               <a className="pb-4 px-4 font-bold hover:underline" style={{textUnderlineOffset: '2px'}} href="#">View Site</a>
